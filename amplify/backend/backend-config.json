@@ -1,0 +1,24 @@
+{
+  "auth": {
+    "pred1f71551e0": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  },
+  "predictions": {
+    "identifyLabelse4135ccb": {
+      "providerPlugin": "awscloudformation",
+      "service": "Rekognition",
+      "dependsOn": [],
+      "identifyType": "identifyLabels"
+    }
+  },
+  "storage": {
+    "s3b4b083e2": {
+      "service": "S3",
+      "providerPlugin": "awscloudformation"
+    }
+  }
+}
